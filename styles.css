@@ -1,0 +1,267 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.8em;
+  }
+
+  .header p {
+    font-size: 1em;
+  }
+
+  .infographic-item {
+    width: 100%;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header h1 {
+    font-size: 2.2em;
+  }
+
+  .header p {
+    font-size: 1.1em;
+  }
+
+  .infographic-item {
+    width: 45%;
+  }
+}
+
+header {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.slide {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h2.intro {
+  color: #2a9d8f;
+}
+
+h2.affiliate {
+  color: #e76f51;
+}
+
+h2.amazon {
+  color: #f4a261;
+}
+
+h2.project {
+  color: #264653;
+}
+
+h2.market {
+  color: #2a9d8f;
+}
+
+h2.strategy {
+  color: #e9c46a;
+}
+
+h2.costs {
+  color: #e76f51;
+}
+
+h2.financial {
+  color: #2a9d8f;
+}
+
+h2.advantage {
+  color: #e9c46a;
+}
+
+h2.plan {
+  color: #264653;
+}
+
+h2.risk {
+  color: #f4a261;
+}
+
+h2.proposal {
+  color: #2a9d8f;
+}
+
+h2.conclusion {
+  color: #e76f51;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+p {
+  color: #555;
+}
+
+.slide-title {
+  margin-top: 0;
+}
+/* Add this to styles.css */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.slide p,
+.slide ul {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+.slide ul {
+  margin-top: 15px;
+}
+
+.slide ul li {
+  margin-bottom: 10px;
+}
+
+header {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+p {
+  color: #555;
+}
+.subtitle {
+  font-size: 1.2em;
+  color: #4a90e2;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.subtitle,
+.key-components {
+  font-size: 1.2em;
+  color: #4a90e2;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.key-components {
+  margin-top: 30px;
+}
+
+h4 {
+  font-size: 1.1em;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/* Add this to styles.css */
+.thank-you-slide {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Add this to styles.css */
+.infographic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.infographic-item {
+  width: 45%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.infographic h4 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #333;
+}
+/* Add this to styles.css */
+#ganttChart-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+#ganttChart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .slide ul {
+    padding-left: 10px;
+  }
+
+  .slide h2,
+  .slide h3,
+  .slide h4 {
+    font-size: 1.2em;
+  }
+
+  .slide p {
+    font-size: 1em;
+  }
+
+  #ganttChart-container {
+    padding-top: 100%; /* Adjust aspect ratio for smaller screens */
+  }
+}
